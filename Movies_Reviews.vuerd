@@ -70,7 +70,7 @@
             "id": "e70f686f-9349-47ae-9741-0dce40e3cc81"
           },
           {
-            "name": "리뷰 제목",
+            "name": "리뷰제목",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -90,7 +90,7 @@
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "7a81be6f-e69d-46fa-a64f-4eb8a6235063"
+            "id": "1e6165f4-9d21-45f5-be04-ca5ff08560f4"
           },
           {
             "name": "내용",
@@ -163,10 +163,10 @@
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 11.6669,
           "top": 19.9999,
-          "zIndex": 21,
+          "zIndex": 37,
           "widthName": 60,
           "widthComment": 60
         },
@@ -201,29 +201,6 @@
             "id": "5d805195-65ee-4cd3-a989-501da537b384"
           },
           {
-            "name": "영화이름 대표값",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 97.5703125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "aec70cef-f62b-4567-a65d-92fcddcdf106"
-          },
-          {
             "name": "리뷰대표값",
             "comment": "",
             "dataType": "",
@@ -244,14 +221,14 @@
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "846742c8-f4c0-4d19-b8e2-ebbd46afca48"
+            "id": "04f26a0e-fe9f-4ea5-8920-3aa61b17bfbc"
           }
         ],
         "ui": {
           "active": false,
-          "left": 110.8336,
-          "top": 540.833,
-          "zIndex": 4,
+          "left": 17.4992,
+          "top": 278.335,
+          "zIndex": 33,
           "widthName": 60,
           "widthComment": 60
         },
@@ -311,9 +288,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 14.1669,
-          "top": 241.6667,
-          "zIndex": 17,
+          "left": 430.8338,
+          "top": 478.3335,
+          "zIndex": 31,
           "widthName": 80,
           "widthComment": 60
         },
@@ -374,28 +351,13 @@
         "ui": {
           "active": false,
           "left": 0,
-          "top": 386.6665,
-          "zIndex": 1,
+          "top": 542.4997,
+          "zIndex": 32,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
         "id": "4fd67efa-6bec-44e8-aaef-e21f1e262cab"
-      },
-      {
-        "name": "",
-        "comment": "",
-        "columns": [],
-        "ui": {
-          "active": false,
-          "left": 200,
-          "top": 100,
-          "zIndex": 7,
-          "widthName": 60,
-          "widthComment": 60
-        },
-        "visible": true,
-        "id": "f8e0c44b-4a64-49d8-b859-87f52c151822"
       },
       {
         "name": "영화이름들",
@@ -445,14 +407,14 @@
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "85b4985f-c11f-4af8-923a-ccd461121019"
+            "id": "ba0c1a34-260e-4191-bf94-ad1712b16aa8"
           }
         ],
         "ui": {
           "active": false,
-          "left": 578.3337,
-          "top": 209.9993,
-          "zIndex": 25,
+          "left": 584.167,
+          "top": 177.4993,
+          "zIndex": 13,
           "widthName": 67,
           "widthComment": 60
         },
@@ -477,17 +439,17 @@
             "b4f73e3d-9811-4a01-bc41-85f665a19e86"
           ],
           "x": 192.28515625,
-          "y": 496.6665,
-          "direction": "bottom"
+          "y": 542.4997,
+          "direction": "top"
         },
         "end": {
           "tableId": "b8836727-7a89-4e8e-9fd4-1fe26efbb049",
           "columnIds": [
             "5d805195-65ee-4cd3-a989-501da537b384"
           ],
-          "x": 174.92865208333333,
-          "y": 540.833,
-          "direction": "top"
+          "x": 209.78435625,
+          "y": 388.335,
+          "direction": "bottom"
         },
         "constraintName": "fk_사용자_to_작성자들",
         "visible": true,
@@ -502,70 +464,18 @@
           "columnIds": [
             "50b31faf-705d-4bf4-a6f2-86962c7b7b42"
           ],
-          "x": 206.45205625,
-          "y": 351.6667,
-          "direction": "bottom"
-        },
-        "end": {
-          "tableId": "b8836727-7a89-4e8e-9fd4-1fe26efbb049",
-          "columnIds": [
-            "aec70cef-f62b-4567-a65d-92fcddcdf106"
-          ],
-          "x": 303.11875625,
-          "y": 540.833,
+          "x": 623.11895625,
+          "y": 478.3335,
           "direction": "top"
-        },
-        "constraintName": "fk_영화이름목록_to_작성자들",
-        "visible": true,
-        "id": "154caf65-e884-4651-9306-873fab0817f8"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "04dfdd51-667e-4474-9bd1-e648c5b711b7",
-          "columnIds": [
-            "e70f686f-9349-47ae-9741-0dce40e3cc81"
-          ],
-          "x": 188.6669,
-          "y": 191.4999,
-          "direction": "bottom"
-        },
-        "end": {
-          "tableId": "b8836727-7a89-4e8e-9fd4-1fe26efbb049",
-          "columnIds": [
-            "846742c8-f4c0-4d19-b8e2-ebbd46afca48"
-          ],
-          "x": 431.3088604166667,
-          "y": 540.833,
-          "direction": "top"
-        },
-        "constraintName": "fk_리뷰_to_작성자들",
-        "visible": true,
-        "id": "0f119d94-0c42-453d-92ec-91824be5f8bd"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "0fbae29b-856c-4fdb-8696-66bd1c79e1ac",
-          "columnIds": [
-            "50b31faf-705d-4bf4-a6f2-86962c7b7b42"
-          ],
-          "x": 398.7372125,
-          "y": 296.6667,
-          "direction": "right"
         },
         "end": {
           "tableId": "a5d9a202-381d-4022-a475-c28452152bcc",
           "columnIds": [
             "85647c77-0ac7-4142-bf57-10c57f522402"
           ],
-          "x": 578.3337,
-          "y": 237.4993,
-          "direction": "left"
+          "x": 776.45215625,
+          "y": 287.4993,
+          "direction": "bottom"
         },
         "constraintName": "fk_영화이름목록_to_영화이름들",
         "visible": true,
@@ -587,15 +497,41 @@
         "end": {
           "tableId": "a5d9a202-381d-4022-a475-c28452152bcc",
           "columnIds": [
-            "85b4985f-c11f-4af8-923a-ccd461121019"
+            "ba0c1a34-260e-4191-bf94-ad1712b16aa8"
           ],
-          "x": 578.3337,
-          "y": 292.4993,
+          "x": 584.167,
+          "y": 232.4993,
           "direction": "left"
         },
         "constraintName": "fk_리뷰_to_영화이름들",
         "visible": true,
-        "id": "f31acedb-f72a-4552-9b86-4c60eb4a8b9e"
+        "id": "40c94075-60ec-4ec9-a930-4dc393f73f47"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "04dfdd51-667e-4474-9bd1-e648c5b711b7",
+          "columnIds": [
+            "e70f686f-9349-47ae-9741-0dce40e3cc81"
+          ],
+          "x": 188.6669,
+          "y": 191.4999,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "b8836727-7a89-4e8e-9fd4-1fe26efbb049",
+          "columnIds": [
+            "04f26a0e-fe9f-4ea5-8920-3aa61b17bfbc"
+          ],
+          "x": 209.78435625,
+          "y": 278.335,
+          "direction": "top"
+        },
+        "constraintName": "fk_리뷰_to_작성자들",
+        "visible": true,
+        "id": "0c51390d-089b-4ca1-9a88-3378e1f35d98"
       }
     ]
   }
