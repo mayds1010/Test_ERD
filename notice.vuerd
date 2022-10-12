@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": -1.6666666004392863,
-    "zoomLevel": 1,
+    "scrollTop": -124.16666173272644,
+    "scrollLeft": -144.99999423821802,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -183,13 +183,36 @@
               "widthDefault": 60
             },
             "id": "e0465361-8199-44e4-9f82-c405d56bee15"
+          },
+          {
+            "name": "Content",
+            "comment": "내용",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "002cdbd7-8ed5-4109-9205-1101adbd99ae"
           }
         ],
         "ui": {
           "active": false,
-          "left": 37.499,
-          "top": 38.3334,
-          "zIndex": 346,
+          "left": 164.7207,
+          "top": 1187.0371,
+          "zIndex": 372,
           "widthName": 60,
           "widthComment": 60
         },
@@ -249,9 +272,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 625.833,
-          "top": 230.0003,
-          "zIndex": 303,
+          "left": 638.7959,
+          "top": 1541.1121,
+          "zIndex": 371,
           "widthName": 60,
           "widthComment": 60
         },
@@ -334,9 +357,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 63.3341,
-          "top": 349.1692,
-          "zIndex": 334,
+          "left": 34.5393,
+          "top": 1472.9651,
+          "zIndex": 369,
           "widthName": 60,
           "widthComment": 60
         },
@@ -396,9 +419,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 624.1665,
-          "top": 535.8327,
-          "zIndex": 332,
+          "left": 641.575,
+          "top": 1401.0178,
+          "zIndex": 370,
           "widthName": 60,
           "widthComment": 60
         },
@@ -422,8 +445,8 @@
           "columnIds": [
             "7e9db8ae-5b3e-442c-a3b9-458dab0617f4"
           ],
-          "x": 248.746314453125,
-          "y": 230.33339999999998,
+          "x": 375.96801445312497,
+          "y": 1399.5371,
           "direction": "bottom"
         },
         "end": {
@@ -431,8 +454,8 @@
           "columnIds": [
             "9e533e27-7630-4618-a785-3de881ade101"
           ],
-          "x": 277.082391015625,
-          "y": 349.1692,
+          "x": 248.287591015625,
+          "y": 1472.9651,
           "direction": "top"
         },
         "constraintName": "fk_공지사항_to_게시판",
@@ -448,8 +471,8 @@
           "columnIds": [
             "04982db7-9d73-4908-bdf9-900763f9c92f"
           ],
-          "x": 625.833,
-          "y": 285.00030000000004,
+          "x": 638.7959,
+          "y": 1596.1121,
           "direction": "left"
         },
         "end": {
@@ -457,8 +480,8 @@
           "columnIds": [
             "c51df2ee-f33a-43b2-952c-0a38dc6ab260"
           ],
-          "x": 490.83068203125,
-          "y": 381.7942,
+          "x": 462.03588203125,
+          "y": 1505.5901,
           "direction": "right"
         },
         "constraintName": "fk_작성자_to_게시판",
@@ -474,8 +497,8 @@
           "columnIds": [
             "c3d49718-aee4-4f7a-8945-9f07a73b5bf3"
           ],
-          "x": 624.1665,
-          "y": 590.8327,
+          "x": 641.575,
+          "y": 1456.0178,
           "direction": "left"
         },
         "end": {
@@ -483,8 +506,8 @@
           "columnIds": [
             "ae288490-6690-4935-abac-6f14461038e4"
           ],
-          "x": 490.83068203125,
-          "y": 447.0442,
+          "x": 462.03588203125,
+          "y": 1570.8401,
           "direction": "right"
         },
         "constraintName": "fk_작성글_to_게시판",
