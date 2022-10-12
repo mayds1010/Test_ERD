@@ -4,8 +4,8 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": 0,
-    "zoomLevel": 0.8,
+    "scrollLeft": -16.666666004392862,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -49,7 +49,7 @@
           {
             "name": "ITEMS",
             "comment": "제공품목들",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -72,7 +72,7 @@
           {
             "name": "TARGET1",
             "comment": "제공대상1",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -95,7 +95,7 @@
           {
             "name": "TARGET2",
             "comment": "제공대상2",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -118,7 +118,7 @@
           {
             "name": "SHOP_UNI_ID",
             "comment": "상호대표값",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -143,7 +143,7 @@
           "active": false,
           "left": 763.1941,
           "top": 239.584,
-          "zIndex": 79,
+          "zIndex": 41,
           "widthName": 60,
           "widthComment": 60
         },
@@ -157,7 +157,7 @@
           {
             "name": "REGIONS_UNI_ID",
             "comment": "지역대표값",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -180,7 +180,7 @@
           {
             "name": "REGIONS",
             "comment": "지역들",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -205,7 +205,7 @@
           "active": false,
           "left": 769.2124,
           "top": 464.2604,
-          "zIndex": 90,
+          "zIndex": 43,
           "widthName": 60,
           "widthComment": 60
         },
@@ -219,7 +219,7 @@
           {
             "name": "OWNER_NAMES_UNI_ID",
             "comment": "제공자대표값",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -242,7 +242,7 @@
           {
             "name": "OWNER_NAMES",
             "comment": "제공자",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -267,7 +267,7 @@
           "active": false,
           "left": 69.4433,
           "top": 419.0051,
-          "zIndex": 86,
+          "zIndex": 26,
           "widthName": 91.73046875,
           "widthComment": 60
         },
@@ -281,7 +281,7 @@
           {
             "name": "SHOP_UNI_ID",
             "comment": "상호대표값",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -304,7 +304,7 @@
           {
             "name": "SHOP_NAME",
             "comment": "상호명",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -327,7 +327,7 @@
           {
             "name": "SHOP_CONTACT_NUMBER",
             "comment": "사업장연락처",
-            "dataType": "",
+            "dataType": "INTEGER",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -350,7 +350,7 @@
           {
             "name": "SHOP_ADDRESS",
             "comment": "사업장주소",
-            "dataType": "",
+            "dataType": "INTEGER",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -373,7 +373,7 @@
           {
             "name": "HOURS",
             "comment": "영업시간",
-            "dataType": "",
+            "dataType": "INTEGER",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -396,7 +396,7 @@
           {
             "name": "OWNER_NAMES_UNI_ID",
             "comment": "제공자대표값",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -419,7 +419,7 @@
           {
             "name": "REGIONS_UNI_ID",
             "comment": "지역대표값",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -444,7 +444,7 @@
           "active": false,
           "left": 49.0735,
           "top": 108.9822,
-          "zIndex": 88,
+          "zIndex": 55,
           "widthName": 60,
           "widthComment": 60
         },
@@ -458,7 +458,7 @@
           {
             "name": "SPONSOR_MEMBERSHIP_WHETHER_UNI_ID",
             "comment": "후원회원참여대표값",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -481,7 +481,7 @@
           {
             "name": "SPONSOR_MEMBERSHIP_WHETHER",
             "comment": "후원회원참여",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -504,7 +504,7 @@
           {
             "name": "OWNER_NAMES_UNI_ID",
             "comment": "제공자대표값",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -529,7 +529,7 @@
           "active": false,
           "left": 58.6114,
           "top": 659.9535,
-          "zIndex": 87,
+          "zIndex": 33,
           "widthName": 147.26611328125,
           "widthComment": 60
         },
