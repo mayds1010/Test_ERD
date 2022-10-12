@@ -5,7 +5,7 @@
     "height": 2000,
     "scrollTop": 0,
     "scrollLeft": 0,
-    "zoomLevel": 1,
+    "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -114,13 +114,36 @@
               "widthDefault": 60
             },
             "id": "eca742fb-2ffe-4198-b891-d5d1a4bbccf3"
+          },
+          {
+            "name": "SHOP_UNI_ID",
+            "comment": "상호대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 82.4501953125,
+              "widthComment": 67,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "dc14a03c-2c0e-4386-9826-fe6d4ae6f7b9"
           }
         ],
         "ui": {
-          "active": true,
-          "left": 123.3329,
-          "top": 384.167,
-          "zIndex": 5,
+          "active": false,
+          "left": 763.1941,
+          "top": 239.584,
+          "zIndex": 79,
           "widthName": 60,
           "widthComment": 60
         },
@@ -128,11 +151,34 @@
         "id": "e1386ff6-19fc-4b67-8ddd-56eed2bb187a"
       },
       {
-        "name": "AREA",
+        "name": "REGION",
         "comment": "지역",
         "columns": [
           {
-            "name": "AREAS",
+            "name": "REGIONS_UNI_ID",
+            "comment": "지역대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 102.8388671875,
+              "widthComment": 67,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "bea7ab25-ae02-4fac-8d52-563a0e99dc4a"
+          },
+          {
+            "name": "REGIONS",
             "comment": "지역들",
             "dataType": "",
             "default": "",
@@ -157,9 +203,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 435.8332,
-          "top": 183.3336,
-          "zIndex": 1,
+          "left": 769.2124,
+          "top": 464.2604,
+          "zIndex": 90,
           "widthName": 60,
           "widthComment": 60
         },
@@ -219,9 +265,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 0,
-          "top": 18.3342,
-          "zIndex": 3,
+          "left": 69.4433,
+          "top": 419.0051,
+          "zIndex": 86,
           "widthName": 91.73046875,
           "widthComment": 60
         },
@@ -232,6 +278,29 @@
         "name": "SHOP",
         "comment": "제공가게",
         "columns": [
+          {
+            "name": "SHOP_UNI_ID",
+            "comment": "상호대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 82.4501953125,
+              "widthComment": 67,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3fa24ab3-4e45-482e-a200-1835413ec3de"
+          },
           {
             "name": "SHOP_NAME",
             "comment": "상호명",
@@ -325,34 +394,57 @@
             "id": "c167d95a-42c6-4f08-866b-3e5676dea393"
           },
           {
-            "name": "SHOP_UNI_ID",
-            "comment": "상호대표값",
+            "name": "OWNER_NAMES_UNI_ID",
+            "comment": "제공자대표값",
             "dataType": "",
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": true,
+              "primaryKey": false,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": true,
-              "fk": false,
+              "pk": false,
+              "fk": true,
               "pfk": false,
-              "widthName": 82.4501953125,
+              "widthName": 145.28564453125,
+              "widthComment": 80,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c29cacdc-6d19-4cd7-aa21-7fbf699ebd64"
+          },
+          {
+            "name": "REGIONS_UNI_ID",
+            "comment": "지역대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 102.8388671875,
               "widthComment": 67,
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "3fa24ab3-4e45-482e-a200-1835413ec3de"
+            "id": "4c89616c-f995-4744-9f6f-7a066bed7cb3"
           }
         ],
         "ui": {
           "active": false,
-          "left": 0,
-          "top": 175.0003,
-          "zIndex": 4,
+          "left": 49.0735,
+          "top": 108.9822,
+          "zIndex": 88,
           "widthName": 60,
           "widthComment": 60
         },
@@ -408,13 +500,36 @@
               "widthDefault": 60
             },
             "id": "c6af9616-61a1-446b-9bc5-32a7c42c42e2"
+          },
+          {
+            "name": "OWNER_NAMES_UNI_ID",
+            "comment": "제공자대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 145.28564453125,
+              "widthComment": 80,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a1249eb9-4d13-4389-8056-2ab66a9c71a1"
           }
         ],
         "ui": {
           "active": false,
-          "left": 34.1666,
-          "top": 608.3332,
-          "zIndex": 2,
+          "left": 58.6114,
+          "top": 659.9535,
+          "zIndex": 87,
           "widthName": 147.26611328125,
           "widthComment": 60
         },
@@ -428,6 +543,111 @@
     "memos": []
   },
   "relationship": {
-    "relationships": []
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "a07104ec-4ccb-4aae-a469-a8283e18e474",
+          "columnIds": [
+            "3fa24ab3-4e45-482e-a200-1835413ec3de"
+          ],
+          "x": 513.85133203125,
+          "y": 162.1072,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "e1386ff6-19fc-4b67-8ddd-56eed2bb187a",
+          "columnIds": [
+            "dc14a03c-2c0e-4386-9826-fe6d4ae6f7b9"
+          ],
+          "x": 763.1941,
+          "y": 315.084,
+          "direction": "left"
+        },
+        "constraintName": "fk_shop_to_item",
+        "visible": true,
+        "id": "fca4ece5-6c07-40a7-bd0c-8742bf139b08"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "3b4c79a4-6a3e-47e6-b617-425efd3a1738",
+          "columnIds": [
+            "ad11484b-750a-4c7d-9b19-6925956bc8a7"
+          ],
+          "x": 295.586122265625,
+          "y": 419.0051,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "a07104ec-4ccb-4aae-a469-a8283e18e474",
+          "columnIds": [
+            "c29cacdc-6d19-4cd7-aa21-7fbf699ebd64"
+          ],
+          "x": 281.462416015625,
+          "y": 321.48220000000003,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_owner_name_to_shop",
+        "visible": true,
+        "id": "8ca1a7da-d108-4ae3-8212-38e67786a329"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "3b4c79a4-6a3e-47e6-b617-425efd3a1738",
+          "columnIds": [
+            "ad11484b-750a-4c7d-9b19-6925956bc8a7"
+          ],
+          "x": 295.586122265625,
+          "y": 529.0051000000001,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "2d9b1a35-c4da-4e96-83eb-cb35623622b5",
+          "columnIds": [
+            "a1249eb9-4d13-4389-8056-2ab66a9c71a1"
+          ],
+          "x": 361.046702734375,
+          "y": 659.9535,
+          "direction": "top"
+        },
+        "constraintName": "fk_owner_name_to_sponsor_membership",
+        "visible": true,
+        "id": "4e2052dc-6b30-4d14-b252-b1f0fa743559"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "0d535c87-e3ee-434d-a4f5-419ec4a0aa4d",
+          "columnIds": [
+            "bea7ab25-ae02-4fac-8d52-563a0e99dc4a"
+          ],
+          "x": 769.2124,
+          "y": 519.2604,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "a07104ec-4ccb-4aae-a469-a8283e18e474",
+          "columnIds": [
+            "4c89616c-f995-4744-9f6f-7a066bed7cb3"
+          ],
+          "x": 513.85133203125,
+          "y": 268.35720000000003,
+          "direction": "right"
+        },
+        "constraintName": "fk_region_to_shop",
+        "visible": true,
+        "id": "ee8cd762-dc1b-4ed9-8e89-0e087e313eac"
+      }
+    ]
   }
 }
