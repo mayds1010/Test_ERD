@@ -302,29 +302,6 @@
             "id": "3fa24ab3-4e45-482e-a200-1835413ec3de"
           },
           {
-            "name": "SHOP_NAME",
-            "comment": "상호명",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 78.63525390625,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "aae71339-b87a-4af7-a93f-6e00babd86bc"
-          },
-          {
             "name": "SHOP_CONTACT_NUMBER",
             "comment": "사업장연락처",
             "dataType": "INTEGER",
@@ -346,6 +323,29 @@
               "widthDefault": 60
             },
             "id": "dc8acd46-bfc6-4e6c-9143-5c972db6ef28"
+          },
+          {
+            "name": "SHOP_NAME",
+            "comment": "상호명",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 78.63525390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "aae71339-b87a-4af7-a93f-6e00babd86bc"
           },
           {
             "name": "SHOP_ADDRESS",
@@ -442,9 +442,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 49.0735,
-          "top": 108.9822,
-          "zIndex": 5,
+          "left": 63.8883,
+          "top": 112.6858,
+          "zIndex": 9,
           "widthName": 60,
           "widthComment": 60
         },
@@ -553,8 +553,8 @@
           "columnIds": [
             "3fa24ab3-4e45-482e-a200-1835413ec3de"
           ],
-          "x": 513.85133203125,
-          "y": 162.1072,
+          "x": 528.66613203125,
+          "y": 165.8108,
           "direction": "right"
         },
         "end": {
@@ -588,8 +588,8 @@
           "columnIds": [
             "c29cacdc-6d19-4cd7-aa21-7fbf699ebd64"
           ],
-          "x": 281.462416015625,
-          "y": 321.48220000000003,
+          "x": 296.277216015625,
+          "y": 325.1858,
           "direction": "bottom"
         },
         "constraintName": "fk_owner_name_to_shop",
@@ -640,8 +640,8 @@
           "columnIds": [
             "4c89616c-f995-4744-9f6f-7a066bed7cb3"
           ],
-          "x": 513.85133203125,
-          "y": 268.35720000000003,
+          "x": 528.66613203125,
+          "y": 272.0608,
           "direction": "right"
         },
         "constraintName": "fk_region_to_shop",
