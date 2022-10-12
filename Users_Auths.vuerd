@@ -5,7 +5,7 @@
     "height": 2000,
     "scrollTop": -0.8333333002196431,
     "scrollLeft": -124.65541471596006,
-    "zoomLevel": 1,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -143,7 +143,7 @@
           "active": false,
           "left": 128.3329,
           "top": 29.1672,
-          "zIndex": 157,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60
         },
@@ -205,7 +205,7 @@
           "active": false,
           "left": 124.1659,
           "top": 493.333,
-          "zIndex": 143,
+          "zIndex": 1,
           "widthName": 85.60498046875,
           "widthComment": 67
         },
@@ -267,7 +267,7 @@
           "active": false,
           "left": 420.8335,
           "top": 251.6661,
-          "zIndex": 147,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },

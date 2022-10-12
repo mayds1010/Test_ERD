@@ -1,0 +1,433 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "ITEM",
+        "comment": "제공품목",
+        "columns": [
+          {
+            "name": "ITEMS",
+            "comment": "제공품목들",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 67,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2462679e-d660-4a7c-a883-fffceff82263"
+          },
+          {
+            "name": "TARGET1",
+            "comment": "제공대상1",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 61.16015625,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fd63df8f-4f51-424c-963e-67c3772002ac"
+          },
+          {
+            "name": "TARGET2",
+            "comment": "제공대상2",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 61.16015625,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "eca742fb-2ffe-4198-b891-d5d1a4bbccf3"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 123.3329,
+          "top": 384.167,
+          "zIndex": 5,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "e1386ff6-19fc-4b67-8ddd-56eed2bb187a"
+      },
+      {
+        "name": "AREA",
+        "comment": "지역",
+        "columns": [
+          {
+            "name": "AREAS",
+            "comment": "지역들",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "b53f8d06-a4ea-4c18-9632-381075dd6786"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 435.8332,
+          "top": 183.3336,
+          "zIndex": 1,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "0d535c87-e3ee-434d-a4f5-419ec4a0aa4d"
+      },
+      {
+        "name": "OWNER_NAME",
+        "comment": "제공자",
+        "columns": [
+          {
+            "name": "OWNER_NAMES_UNI_ID",
+            "comment": "제공자대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 145.28564453125,
+              "widthComment": 80,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ad11484b-750a-4c7d-9b19-6925956bc8a7"
+          },
+          {
+            "name": "OWNER_NAMES",
+            "comment": "제공자",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 98.7890625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "694505f6-6b28-49b9-b687-cfddd0f98778"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 0,
+          "top": 18.3342,
+          "zIndex": 3,
+          "widthName": 91.73046875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "3b4c79a4-6a3e-47e6-b617-425efd3a1738"
+      },
+      {
+        "name": "SHOP",
+        "comment": "제공가게",
+        "columns": [
+          {
+            "name": "SHOP_NAME",
+            "comment": "상호명",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 78.63525390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "aae71339-b87a-4af7-a93f-6e00babd86bc"
+          },
+          {
+            "name": "SHOP_CONTACT_NUMBER",
+            "comment": "사업장연락처",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 157.77783203125,
+              "widthComment": 80,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "dc8acd46-bfc6-4e6c-9143-5c972db6ef28"
+          },
+          {
+            "name": "SHOP_ADDRESS",
+            "comment": "사업장주소",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 97.46240234375,
+              "widthComment": 67,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "5669f015-33e8-468c-893e-093e8b1a1efb"
+          },
+          {
+            "name": "HOURS",
+            "comment": "영업시간",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c167d95a-42c6-4f08-866b-3e5676dea393"
+          },
+          {
+            "name": "SHOP_UNI_ID",
+            "comment": "상호대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 82.4501953125,
+              "widthComment": 67,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3fa24ab3-4e45-482e-a200-1835413ec3de"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 0,
+          "top": 175.0003,
+          "zIndex": 4,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "a07104ec-4ccb-4aae-a469-a8283e18e474"
+      },
+      {
+        "name": "SPONSOR_MEMBERSHIP",
+        "comment": "후원회원",
+        "columns": [
+          {
+            "name": "SPONSOR_MEMBERSHIP_WHETHER_UNI_ID",
+            "comment": "후원회원참여대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 258.87060546875,
+              "widthComment": 119,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "37123178-a9a8-434d-a1b2-aa64b4a8cbc7"
+          },
+          {
+            "name": "SPONSOR_MEMBERSHIP_WHETHER",
+            "comment": "후원회원참여",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 212.3740234375,
+              "widthComment": 80,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c6af9616-61a1-446b-9bc5-32a7c42c42e2"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 34.1666,
+          "top": 608.3332,
+          "zIndex": 2,
+          "widthName": 147.26611328125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "2d9b1a35-c4da-4e96-83eb-cb35623622b5"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": []
+  }
+}
