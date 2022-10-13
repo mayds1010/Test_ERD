@@ -94,7 +94,7 @@
           },
           {
             "name": "UNIQUE_ID_PATENT",
-            "comment": " 상위대표값",
+            "comment": " 하위대표값",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -117,10 +117,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 18.3332,
           "top": 293.3338,
-          "zIndex": 53,
+          "zIndex": 4,
           "widthName": 103.5498046875,
           "widthComment": 60
         },
